@@ -1,4 +1,4 @@
-# Monthly Sales Forecasting Project (Prophet, ARIMA, LSTM)
+# Monthly Sales Forecasting Project
 
 ## 📌 Overview
 This project forecasts **monthly sales** using the Kaggle **Demand Forecasting Dataset**.  
