@@ -1,4 +1,4 @@
-# Monthly Sales Forecasting Project
+# Monthly Sales Forecasting Project (Prophet, ARIMA, LSTM)
 
 ## 📌 Overview
 This project forecasts **monthly sales** using the Kaggle **Demand Forecasting Dataset**.  
@@ -13,10 +13,7 @@ The notebook performs **data preprocessing, model training, evaluation, and visu
 
 ## ✨ Features
 - **Data Preparation**: Aggregates daily sales into monthly totals.  
-- **Models Implemented**:  
-  - Prophet (seasonality-aware forecasting)  
-  - ARIMA (classical time series)  
-  - LSTM (neural network for sequential data)  
+- **Models Implemented**: Prophet, ARIMA (SARIMA), and LSTM.  
 - **Performance Evaluation**: RMSE, MAE, MAPE metrics.  
 - **Visualizations**: Actual vs Forecast plots for Train, Validation, and Test sets.  
 - **Comparison Leaderboard**: Ranks models based on test performance.  
@@ -44,15 +41,26 @@ jupyter notebook Monthly_Sales_Forecasting_Prophet_ARIMA_LSTM.ipynb
 
 **Dataset:**  
 Download the Kaggle [Demand Forecasting Dataset](https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data)  
-and place `demand_forecasting_dataset.csv` in the project folder.  
+and place `train.csv` in the project folder.  
 
 ---
 
 ## 📊 Example Outputs
-- Prophet, ARIMA, and LSTM forecasts for monthly sales.  
-- Validation/Test performance metrics.  
-- Leaderboard of models with RMSE/MAE/MAPE comparison.  
-- Visual insights for better decision-making.  
+
+### 1. Train/Validation/Test Split
+![Train-Val-Test Split](images/train_val_test_split.png)
+
+### 2. Prophet Test Forecast
+![Prophet Forecast](images/prophet_test_forecast.png)
+
+### 3. SARIMA Test Forecast
+![SARIMA Forecast](images/sarima_test_forecast.png)
+
+### 4. LSTM Test Forecast
+![LSTM Forecast](images/lstm_test_forecast.png)
+
+### 5. Model Comparison (Test Period)
+![Model Comparison](images/model_comparison.png)
 
 ---
 
